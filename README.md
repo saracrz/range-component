@@ -1,4 +1,4 @@
-# range-component
+# Range component
 
 This is a range component made using React.
 
