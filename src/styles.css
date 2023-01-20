@@ -1,0 +1,47 @@
+.horizontal-slider  {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    max-width: 400px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.thumb {
+    cursor: pointer;
+    position: absolute;
+    background: #000000;
+    border: 5px solid #000000;
+    border-radius: 100px;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+}
+
+.track  {
+    position: relative;
+    background: #000000;
+
+}
+
+.horizontal-slider .track {
+    top: 20px;
+    height: 4px;
+}
+
+.horizontal-slider .thumb {
+    top: 14px;
+    width: 5px;
+    outline: none;
+    height: 5px;
+    line-height: 38px;
+}
+
+.example-mark {
+    cursor: pointer;
+    position: absolute;
+    background: #000000;
+    border: 5px solid #000000;
+    border-radius: 100px;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%)
+}
